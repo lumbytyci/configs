@@ -1,6 +1,7 @@
 # Backup of config files
-* Vim (*.vimrc*)
-* Bash Aliases (*.bash_aliases*)
+* vim (*.vimrc*)
+* bash Aliases (*.bash_aliases*)
+* tmux (*.tmux.conf*)
 
 If your distro can't interact with `.bash_aliases` (placed in the same dir) add the following to `.bashrc`:
 ```bash
