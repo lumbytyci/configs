@@ -8,3 +8,5 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set autoindent
+
+autocmd FileType make setlocal noexpandtab
