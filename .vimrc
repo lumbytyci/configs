@@ -8,5 +8,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 set autoindent
+set showcmd
 
-autocmd FileType make setlocal noexpandtab
+vnoremap <C-c> "*y :let @+=@*<CR>
+map <C-v> "+P
