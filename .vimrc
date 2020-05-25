@@ -11,4 +11,4 @@ set autoindent
 set showcmd
 
 vnoremap <C-c> "*y :let @+=@*<CR>
-map <C-v> "+P
+map <C-v>v "+P
