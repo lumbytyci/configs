@@ -12,3 +12,6 @@ set showcmd
 
 vnoremap <C-c> "*y :let @+=@*<CR>
 map <C-v>v "+P
+
+highlight RedundantSpaces ctermbg=gray guibg=gray
+match RedundantSpaces /\s\+$/
