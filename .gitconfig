@@ -1,5 +1,6 @@
 [user]
-	email = email@example.com 
-	name = John Doe 
+	email = email@example.com
+	name = John Doe
 [alias]
 	adog = log --all --decorate --oneline --graph
+    cb = branch --show-current
